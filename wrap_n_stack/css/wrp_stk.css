@@ -1,0 +1,64 @@
+/* CSS Simple Wrap and Stack Grid */
+
+body {
+    background: #f8f8f8;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 1.0rem;
+    margin-top: 0.4em;
+    margin-bottom: -0.8em;
+    padding: 7px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.grid-container-main {
+    display: grid;
+    margin: 10px;
+    grid-gap: 2rem;
+}
+
+.grid-container-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid-container-rows {
+    display: grid;
+    grid-template-rows: repeat(auto-size, minmax(160px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid-item {
+    border-radius: 2px;
+    background-color: #e2e2e2;
+    box-shadow: 1px 1px 2px 0.5px #939393;
+}
+
+.sub-grid-item {
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 7px;
+}
+
+.title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    margin-top: 0.4em;
+    margin-bottom: -0.9em;
+    padding: 7px;
+}
+
+.caption {
+    font-family: monospace;
+    font-size: 0.4rem;
+    margin-top: 0.4em;
+    margin-bottom: -0.8em;
+    padding: 7px;
+}
