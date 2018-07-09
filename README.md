@@ -9,6 +9,6 @@
 
 2.) <a href="https://hamberfim.github.io/Simple_Web_Grid_Layouts/cust_materialize/index.html" target="_blank">Customized Materialize</a>
 
-3.) <a href="https://hamberfim.github.io/Simple_Web_Grid_Layouts/simple_hortz/index_hrzNav.html" target="_blank">Simple Horizontal Navigation (ugly oldschool)</a> 
+3.) <a href="https://hamberfim.github.io/Simple_Web_Grid_Layouts/simple_hortz/index_hrzNav.html" target="_blank">Simple Horizontal Navigation (oldschool)</a> 
 
-4.) <a href="https://hamberfim.github.io/Simple_Web_Grid_Layouts/simple_sidebar/index_sbNav.html" target="_blank">Simple Sidebar Navigation (ugly oldschool)</a> 
+4.) <a href="https://hamberfim.github.io/Simple_Web_Grid_Layouts/simple_sidebar/index_sbNav.html" target="_blank">Simple Sidebar Navigation (oldschool)</a> 
