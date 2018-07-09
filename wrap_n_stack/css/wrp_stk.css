@@ -38,12 +38,15 @@ p {
     border-radius: 2px;
     background-color: #e2e2e2;
     box-shadow: 1px 1px 2px 0.5px #939393;
+    overflow-wrap: break-word;
 }
 
 .sub-grid-item {
     font-size: 0.9rem;
     text-align: left;
+    vertical-align: top;
     padding: 7px;
+    overflow-wrap: break-word;
 }
 
 .title {
