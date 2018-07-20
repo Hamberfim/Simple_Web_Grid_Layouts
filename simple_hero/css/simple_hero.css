@@ -1,0 +1,167 @@
+/* Simple Heror - custom CSS Grid */
+/* adhamlin a.k.a., Hamberfim */
+html, body {
+  margin: 0 auto;
+  height: 100%;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #eeeeee;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0.3em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-bar {
+  background: linear-gradient(-90deg, #7592ab, #586e80);
+  height: 15px;
+}
+
+.hero {
+  background: linear-gradient(35deg, #eee, #555);
+  background-color: #555;
+  height: 150px;
+  color: #fff;
+  text-align: center;
+}
+
+.txt-hero {
+  margin-top: 0px;
+  position: relative;
+  top: 35px;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.nav-bar {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.9em;
+  background: #586e80;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0em 1em 0em 1em;
+}
+
+.footer {
+  background: linear-gradient(-90deg, #586e80, #7592ab);
+  height: 50px;
+  position:relative;
+  bottom:0;
+  width: 100%
+}
+
+
+/* Break-Point */
+@media (min-width: 610px) {
+
+html, body {
+  margin: 0 auto;
+  height: 100%;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #eeeeee;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  padding-bottom: 0em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-bar {
+  background: linear-gradient(-90deg, #7592ab, #586e80);
+  height: 25px;
+}
+
+.hero {
+  background: linear-gradient(35deg, #eee, #555);
+  background-color: #555;
+  height: 300px;
+}
+
+.txt-hero {
+  margin-top: 0px;
+  position: relative;
+  top: 55px;
+  font-size: 8em;
+  font-weight: 900;
+}
+
+.nav-bar {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em;
+  text-align: center;
+  background: #586e80;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0em 2em 0em 2em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.footer {
+  background: linear-gradient(-90deg, #586e80, #7592ab);
+  height: 70px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+}
